@@ -27,6 +27,9 @@
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -34,7 +37,7 @@
 		<nav>
 			<div class="container">
 				<div class="sh-header__block">
-					<object data="image/svg+xml" type="./img/logo.svg" class="sh-header__logo">
+					<object data="./img/logo.svg" type="image/svg+xml" class="sh-header__logo">
 						<img src="./img/logo.png" alt="logo" class="sh-header__logo">
 					</object>
 					<ul class="sh-header__menu">
@@ -75,9 +78,41 @@
 						</li>
 					</ul>
 				</div>
+
 			</div>
 		</nav>
+
 	</header>
+	<main>
+		<section class="sh-head">
+			<div class="sh-head__block">
+				<div class="sh-header__info">
+					<h1 class="sh-head__title wow fadeInUp" data-wow-duration="1.5s">
+						Студия заточки "Шарм"
+					</h1>
+					<p class="sh-head__text wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".6s">
+						<span>Кусачки быстро тупятся или цепляют?
+						Мастер сильно стачивает лезвие?</span>
+
+
+						Мы никогда не стачиваем полотно и не портим инструмент. Наша заточка долго держится, кусачки не цепляют и имеют мягкий, плавный ход. Нас рекомендуют мастера и профессионалы. Закажите заточку у нас!
+					</p>
+				</div>
+			</div>
+			<div class="sh-head__ads">
+				<div class="container">
+					<div class="sh-head__ad">
+						<p class="sh-head__prpose">
+							Закажите заточку прямо сейчас
+						</p>
+						<a href="tel: +7(929) 675-97-01" class="sh-head__link">
+							+7(929) 675-97-01
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
 	<script src="js/bundle.js"></script>
 </body>
 </html>
